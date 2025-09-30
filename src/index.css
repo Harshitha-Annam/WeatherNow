@@ -1,0 +1,21 @@
+@import "tailwindcss";
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  /* border: 1px solid white; */
+  /* height: 100vh; */
+  font-weight: 400;
+  padding:2rem;
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #06092e;
+  box-sizing:border-box;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
