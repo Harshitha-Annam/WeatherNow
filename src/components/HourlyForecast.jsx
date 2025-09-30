@@ -44,7 +44,7 @@ const HourlyForecast = ({day, hourlyData}) => {
         <legend>
           <label>
               <select className='bg-[#f8f8fb19] text-white px-4 py-2 rounded-sm' value={selectedDay} onChange={(e) => handleSelectedChange(e.target.value)}>
-                  {dayNames.map((day, index) => <option value={dates[index]} key={day}>{day}</option>)}
+                  {dayNames.map((day, index) => <option value={dates[index]} key={day} className='bg-[#06092e] rounded-sm'>{day}</option>)}
               </select>
           </label>
         </legend>
